@@ -1,3 +1,3 @@
 # todo-react-lntduong
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/todo-react-lntduong)
+[Demo ⚡️](https://todo-react-lntduong.stackblitz.io)
