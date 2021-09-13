@@ -1,0 +1,24 @@
+input:focus {
+  box-shadow: unset !important;
+}
+
+.add-todo {
+  @media (max-width: 576px) {
+    width: 90%;
+  }
+}
+
+.list-group-item {
+  &:hover {
+    background: #ececec;
+  }
+  @media (max-width: 576px) {
+    flex-direction: column;
+    width: 90%;
+  }
+  .action-btn {
+    @media (max-width: 576px) {
+      margin-top: 8px;
+    }
+  }
+}
