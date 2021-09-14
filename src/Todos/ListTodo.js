@@ -3,10 +3,11 @@ import axios from 'axios';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEdit, faTrashAlt } from '@fortawesome/free-solid-svg-icons';
 import { toast } from 'react-toastify';
+import Color from '../HOC/Color';
 
 import AddTodo from './AddTodo';
 
-export default class ListTodo extends React.Component {
+class ListTodo extends React.Component {
   state = {
     listTodos: [],
     editTodo: {}
@@ -123,3 +124,5 @@ export default class ListTodo extends React.Component {
     );
   }
 }
+
+export default Color(ListTodo);
